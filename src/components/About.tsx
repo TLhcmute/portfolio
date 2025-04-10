@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   return (
-    <section id="about" className="section-padding bg-background">
+    <section id="about" className="section-padding bg-background reveal">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Về <span className="gradient-text">Tôi</span></h2>
