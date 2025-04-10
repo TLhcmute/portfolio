@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -6,20 +6,28 @@ const Contact = () => {
     <section id="contact" className="section-padding bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Liên <span className="gradient-text">Hệ</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Liên <span className="gradient-text">Hệ</span>
+          </h2>
           <div className="h-1 w-20 bg-primary mx-auto"></div>
           <p className="mt-4 text-gray-300 max-w-3xl mx-auto">
-            Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hoặc cơ hội hợp tác nào
+            Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hoặc cơ hội hợp tác
+            nào
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
           <div className="bg-secondary/10 rounded-lg p-8">
-            <h3 className="text-2xl font-semibold mb-6">Gửi tin nhắn cho tôi</h3>
+            <h3 className="text-2xl font-semibold mb-6">
+              Gửi tin nhắn cho tôi
+            </h3>
             <form>
               <div className="mb-4">
-                <label htmlFor="name" className="block text-gray-300 text-sm font-bold mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-gray-300 text-sm font-bold mb-2"
+                >
                   Tên của bạn
                 </label>
                 <input
@@ -30,7 +38,10 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label htmlFor="email" className="block text-gray-300 text-sm font-bold mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-gray-300 text-sm font-bold mb-2"
+                >
                   Địa chỉ email
                 </label>
                 <input
@@ -41,7 +52,10 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="message" className="block text-gray-300 text-sm font-bold mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-gray-300 text-sm font-bold mb-2"
+                >
                   Tin nhắn
                 </label>
                 <textarea
@@ -58,7 +72,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          
+
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Thông tin liên hệ</h3>
@@ -68,7 +82,9 @@ const Contact = () => {
                   <Mail className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-gray-300">quachtailoi@gmail.com</p>
+                  <p className="text-gray-300">
+                    tailoi1606tailoi1606@gmail.com
+                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -76,7 +92,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-gray-300">+84 123 456 789</p>
+                  <p className="text-gray-300">+84 797 526 990</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
